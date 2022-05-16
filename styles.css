@@ -6,7 +6,23 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.link {
+.link,
+.ingredient {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredient {
+    color: green;
+    text-align: center;
+}
+
+.step {
+    color: magenta;
+    font-size: 20px;
+}
+
+.step.odd {
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
